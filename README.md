@@ -1,6 +1,6 @@
 <center>
 
-## Dini.js
+## Dini.db
 
 </center>
 
@@ -18,8 +18,8 @@
 
 ### 📥 Install;
 ```sh
-npm install dini.js
-npm install dini.js@latest
+npm install dini.db
+npm install dini.db@latest
 ```
 
 <br/>
@@ -30,7 +30,7 @@ npm install dini.js@latest
 
 ### ✨️ Example Usage;
 ```js
-const Dini = require("dini.js");
+const Dini = require("dini.db");
 const db = new Dini();
 
 // target file
