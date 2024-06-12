@@ -1,0 +1,26 @@
+{
+  "name": "dini.db",
+  "version": "1.1.1",
+  "description": "dini.db - It is a database module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warfdev/dini.js.git"
+  },
+  "keywords": [
+    "dini",
+    "ini",
+    "db",
+    "database",
+    "dinidb"
+  ],
+  "author": "warfdev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/warfdev/dini.js/issues"
+  },
+  "homepage": "https://github.com/warfdev/dini.js#readme"
+}
