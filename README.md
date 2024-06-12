@@ -102,7 +102,7 @@ username=warfdev
  
  [person]
  name=John
- age=20
+ age=30
  city=New York
  
 */
@@ -118,7 +118,7 @@ returns;
 
  [person]
  name=John
- age=20
+ age=30
  city=New York
  money=3000
 */
