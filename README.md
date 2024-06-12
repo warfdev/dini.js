@@ -17,8 +17,10 @@
 
 ---
 
-<div align="center">
-  **[ NPM Package ](https://www.npmjs.com/package/dini.db)**
+<div align = "center">
+
+**[ NPM Package ](https://www.npmjs.com/package/dini.db)**
+
 </div>
 
 <br/>
