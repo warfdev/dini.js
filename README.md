@@ -79,4 +79,87 @@ username=warfdev
 
 // rename(name, newName)
 <file>.rename("diamonds", "irons");
+
+// raw(code)
+<file>.raw(`SELECT_KEY "diamonds" OPERATOR set VALUE "30"`);
+```
+
+<br/>
+
+<br/>
+
+### Object Functions Information;
+```js
+// Functions List;
+
+// createObject(name, object)
+<file>.createObject('person', { name: 'John', age: 30, city: 'New York' });
+
+/*
+ returns;
+ 
+ ./YourIniFile.ini
+ 
+ [person]
+ name=John
+ age=20
+ city=New York
+ 
+*/
+
+
+// addObject(name, object, value)
+<file>.addObject("person", "money", 3000);
+
+/*
+returns;
+
+./YourIniFile.ini
+
+ [person]
+ name=John
+ age=20
+ city=New York
+ money=3000
+*/
+
+
+// removeObject(name, object)
+<file>.removeObject("person", "age");
+
+/*
+returns;
+
+./YourIniFile.ini
+
+ [person]
+ name=John
+ city=New York
+ money=3000
+*/
+
+
+// setObject(name, object, value)
+<file>.setObject("person", "money", 10000);
+
+/*
+returns;
+
+./YourIniFile.ini
+
+ [person]
+ name=John
+ city=New York
+ money=10000
+*/
+
+
+// getObject(name)
+const obj = <file>.getObject("person");
+console.log(obj); // returns; { name: "John", city: "New York", money: 10000 }
+console.log(obj.name); // returns; John
+
+
+// hasObject(name)
+console.log(<file>.hasObject("persom")) // returns; boolean
 ```
