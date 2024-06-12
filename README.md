@@ -18,7 +18,7 @@
 ---
 
 <div align="center">
-  <b>[NPM Package](https://www.npmjs.com/package/dini.db)</b>
+  **[ NPM Package ](https://www.npmjs.com/package/dini.db)**
 </div>
 
 <br/>
